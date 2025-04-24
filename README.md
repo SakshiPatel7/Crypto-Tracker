@@ -35,16 +35,17 @@ This is a **Real-Time Crypto Price Tracker** built using **React** and **Redux T
 
    
    git clone https://github.com/SakshiPatel7/Crypto-Tracker.git
+   
    cd Crypto-Tracker
-2. **Install dependencies**:
+3. **Install dependencies**:
 
    ```bash
    npm install
-3. **Run the app**:
+4. **Run the app**:
 
    ```bash
    npm run dev
-4. **Visit the app**:  
+5. **Visit the app**:  
 
    Open your browser and go to `http://localhost:3000` to view the application running locally.
 
