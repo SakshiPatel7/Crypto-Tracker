@@ -1,0 +1,116 @@
+/* CryptoTable.css */
+
+/* Body & Container Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Table container styling */
+  .table-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-top: 30px;
+  }
+  
+  /* Table header styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  /* Table header row */
+  thead {
+    background: linear-gradient(135deg, #6ee7b7, #3b82f6);
+    color: white;
+    font-weight: bold;
+  }
+  
+  th {
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  td {
+    padding: 12px 15px;
+  }
+  
+  /* Table body styling */
+  tbody tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f5f9;
+  }
+  
+  /* Currency name */
+  td img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  /* Price & Percent Styling */
+  .price, .market-cap, .volume {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Percentage color coding */
+  .positive {
+    color: #22c55e; /* Green */
+  }
+  
+  .negative {
+    color: #ef4444; /* Red */
+  }
+  
+  .neutral {
+    color: #3b82f6; /* Blue */
+  }
+  
+  /* Link Styling */
+  a {
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    table {
+      font-size: 12px;
+    }
+  
+    td, th {
+      padding: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    th {
+      font-size: 10px;
+    }
+  
+    td {
+      font-size: 10px;
+    }
+  
+    .table-container {
+      padding: 10px;
+    }
+  }
+  
